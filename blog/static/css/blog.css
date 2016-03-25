@@ -5,6 +5,7 @@ h1 a {
 
 body {
     padding-left: 15px;
+	background: url('../images/fond_jaune.png');
 }
 
 h1 a {
@@ -59,3 +60,102 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+ 
+ 
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#tweet
+{
+    width: 28%;
+}
+
+ 
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('../images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
